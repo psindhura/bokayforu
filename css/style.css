@@ -1,0 +1,284 @@
+body{
+  background: #F1F0D1;
+  font-family: Lucida Handwriting, Verdan, Tahama, Arial, sans-serif;
+  font-size:18px;
+  overflow:auto;
+}
+h1,h2,h3{
+  text-align:cenetr;
+  padding-left: :5%;
+  color:#878E63;
+}
+p{
+  padding:2%;
+  color:#878E63;
+}
+img{
+  text-align: center;
+  max-width: 100%;
+  height:auto;
+  width:auto;
+}
+#wrapper{
+  margin:0 auto;
+  padding:10px;
+  max-width: 1020px;
+  width:98%;
+  background: #FEFBE8;
+  border:1px solid #878E63;
+  border-radius: 2px;
+  box-shadow: 0 0 10px 0px rgba(12, 3, 25, 0.8);
+}
+#callout{
+  width:100%;
+  height:auto;
+  background: #878E63;
+  overflow: hidden;
+}
+#callout p{
+  text-align: right;
+  font-size:13px;
+  padding: 0.1% 5% 0 0;
+  color: #F1F0D1;
+}
+#callout p a{
+  color: #F1F0D1;
+  text-decoration: none;
+}
+  header{
+    width:96%;
+    min-height: 125px;
+    padding: 5px;
+    text-align: center;
+  } 
+  header a img{
+    padding-top: 20px;
+  }
+  nav ul{
+    list-style: none;
+    margin:auto;
+    padding-left: 200px;
+  }
+nav ul li{
+  float:left;
+  border: 1px solid #878E63;
+  width:15%;
+}
+nav ul li a{
+  background: #F1F0D1;
+  display: block;
+  padding: 5% 12%;
+  font-size: 18px;
+  color:#878E63;
+  text-decoration: none;
+  text-align: center;
+}
+nav ul li a:hover, nav ul li:active a{
+  background-color: #878E63;
+  color:#F1F0D1;
+}
+.banner img{
+  width: 100%;
+  border-top:1px solid #878E63;
+  border-bottom: 1px solid #878E63;
+}
+.clearfix{
+  clear: both;
+}
+center{
+  padding: 20px;
+}
+.left-col{
+  width:55%;
+  float: left;
+  margin: -2% 1% 1% 1%;
+}
+.sidebar{
+  width:40%;
+  float: right;
+  margin: 1%;
+  text-align: center;
+}
+.service{
+  float: left;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  padding: 1%;
+}
+.section{
+  width:29%;
+  float:left;
+  margin: 2% 2%;
+  text-align: center;
+}
+footer{
+  background: #878E63;
+  width: 100%;
+  overflow: hidden;
+}
+footer p, footer h3{
+  color: #F1F0D1;
+}
+footer p a{
+  color: #F1F0D1;
+  text-decoration:none; 
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li{
+  display: inline;
+}
+ul li img{
+  height: 50px;
+}
+#copyright{
+  text-align: center;
+  padding: 0;
+}
+/*--portfolio--*/
+.gallery{
+  padding: 0px;
+  margin: 0;
+  }
+  .gallery .section img{
+  width: 250px;
+  height:200px;
+}
+/*--pricing--*/
+.pricing{
+  padding:10px;
+  padding-bottom: 0;
+}
+.pricing h2{
+  text-align: center;
+}
+.pricing img{
+  width:100%;
+  height:auto;
+}
+.pricing p{
+  text-align:center;
+}
+.pricing p b{
+  text-decoration: underline;
+}
+table, th, td{
+  border: 2px solid #878E63;
+  border-collapse:collapse; 
+}
+table{
+  width:80%;
+  padding:20% 0;
+  margin:0 auto;
+}
+th{
+  height:50px;
+  background-color:#878E63;
+  opacity:0.80;
+  color:white;
+}
+td{
+  text-align:center;
+  height:50px;
+  color: #878E63;
+}
+tr:hover {
+  background-color: #878E63;
+  opacity:0.80;
+  color:white;
+}
+/*--contact page--*/
+form h2{
+  text-align: center;
+  padding: 20px;
+  }
+input[type=text],textarea
+{
+width: 97.7%;
+height: 34px;
+padding-left: 5px;
+margin-bottom: 5px;
+margin-top: 5px;
+border: 2px solid #ccc;
+color: #4f4f4f;
+font-size: 16px;
+border-radius: 5px;
+}
+textarea
+{
+resize:none;
+height:80px;
+
+}
+label
+{
+color: #464646;
+text-shadow: 0 1px 0 #fff;
+font-size: 14px;
+font-weight: bold;
+}
+.submit
+{
+padding: 10px;
+text-align: center;
+font-size: 18px;
+background-color:#878E63;
+border: 2px solid #878E63;
+color: #ffffff;
+font-weight: bold;
+cursor: pointer;
+text-shadow: 0px 1px 0px #13506D;
+width: 100%;
+border-radius: 5px;
+margin:20px auto;
+}
+.submit:hover
+{
+background: #878E63;
+}
+/*------media-----*/
+@media screen and (max-width: 478px){
+  body{
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 740px){
+  nav{
+    width: 100%;
+    margin-bottom: 10px;
+    padding-left: 0;
+    }
+    nav ul{
+    list-style: none;
+    margin: 0 auto;
+    padding-left: 0;
+  }
+   nav ul i{
+    text-align: center;
+    margin-left: 0 auto;
+    width: 100%;
+    border-top: 1px solid #878E63;
+    border-right: 0px solid #878E63;
+    border-bottom: 1px solid #878E63;
+    border-left: 0px solid #878E63;
+   }
+   nav ul li a{
+    padding: 8px 0;
+    font-size: 16px;
+   }
+   .left-col{
+      width:100%;
+   }
+   .sidebar{
+      width:100%;
+   }
+   .section{
+     float: left;
+      width:100%;
+      margin:0;
+   }
+}
